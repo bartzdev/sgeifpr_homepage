@@ -41531,7 +41531,7 @@ return A.WN(this.r,s.b.ap(0,r.gv(r)),B.dg)}}
 A.rJ.prototype={
 P(a,b){return this.e.$2(b,this.f)}}
 A.v4.prototype={
-P(a,b){return new A.ny(new A.nZ(null),"Flutter Demo",A.Yw(null,B.oy),null)}}
+P(a,b){return new A.ny(new A.nZ(null),"SGE-IFPR (Gest\xe3o Educacional)",A.Yw(null,B.oy),null)}}
 A.nZ.prototype={
 aE(){return new A.Aj(B.n)}}
 A.Aj.prototype={
