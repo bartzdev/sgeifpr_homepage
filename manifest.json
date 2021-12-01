@@ -1,6 +1,6 @@
 {
-    "name": "sgeifpr_homepage_project",
-    "short_name": "sgeifpr_homepage_project",
+    "name": "teste_web",
+    "short_name": "teste_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

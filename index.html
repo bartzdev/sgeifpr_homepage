@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -14,7 +13,6 @@
 
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
-    <base href="/">
   -->
   <base href="/">
 
@@ -25,31 +23,21 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="sgeifpr_homepage_project">
+  <meta name="apple-mobile-web-app-title" content="teste_web">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>sgeifpr_homepage_project</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>teste_web</title>
   <link rel="manifest" href="manifest.json">
-
-  <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
-  <script type="text/javascript">
-    let isSafari = /^((?!chrome|android).)*safari/i.test(platform.ua);
-    if (isSafari) {
-      HTMLCanvasElement.prototype.getContext = function (orig) {
-        return function (type) {
-          return type !== "webgl2" ? orig.apply(this, arguments) : null
-        }
-      }(HTMLCanvasElement.prototype.getContext)
-    }
-  </script>
 </head>
-
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '36945753';
+    var serviceWorkerVersion = '2488743659';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -57,7 +45,6 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      window.flutterWebRenderer = "html";
       scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
@@ -114,5 +101,4 @@
     }
   </script>
 </body>
-
 </html>
