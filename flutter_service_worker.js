@@ -10,22 +10,18 @@ const RESOURCES = {
 "assets/assets/logo_windows.png": "1c164bc52d26883fc9493916b8307c7c",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "6a3f305f5972f34f26eab668e0ea6d35",
+"assets/NOTICES": "8b5f0b8e497484f7604f333baa4fbc5b",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
-"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb",
-"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
-"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "39acdef5d85c6d35d6e7824d9a3c622f",
-"/": "39acdef5d85c6d35d6e7824d9a3c622f",
-"main.dart.js": "061e456f15c0b5a2bb6865d492520b20",
+"index.html": "b8c9fd7704d7d5fa1237eb9b3845c5d2",
+"/": "b8c9fd7704d7d5fa1237eb9b3845c5d2",
+"main.dart.js": "509602178130c8ac61e02341d93b5fc2",
 "manifest.json": "de1ac2a1f1e3a86f207803ddd4f0f82d",
-"version.json": "70e66df1c68b72c8c1811b415c8cc1fe"
+"version.json": "83717863733eab1ac47db133c27d2852"
 };
 
 // The application shell files that are downloaded before a service worker can
