@@ -16,6 +16,8 @@
     the `--base-href` argument provided to `flutter build`.
     <base href="/">
   -->
+  <base href="/">
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -42,11 +44,13 @@
   </script>
 </head>
 
-<body>
+<body style="background-color:#0A0D30; margin:0 auto; display:flex; flex-direction:column; justify-content:center; min-height:100vh; overflow: hidden;">
   <div
-    style="background-color:#0A0D30; margin:0 auto; display:flex; flex-direction:column; justify-content:center; min-height:100vh;">
+    style="background-color:#0A0D30; margin:0 auto; display:flex; flex-direction:column; justify-content:center; min-height:100vh; overflow: hidden;">
     <center>
-      <p style="color:white; font-size:30px; font-family: 'Open Sans';">Portal do sistema SGE-IFPR<br><br>Carregando conteúdo...</p>
+      <p style="color:white; font-size:30px; font-family: 'Open Sans';">Portal do sistema SGE-IFPR<br><br>     
+        <img src="icons/loading.gif" alt="this slowpoke moves"  width="80" height="80"/>      
+      </p>
     </center>
   </div>
 
@@ -55,7 +59,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '2036699962';
+    var serviceWorkerVersion = '1290983715';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
