@@ -48,7 +48,7 @@
   <div
     style="background-color:#0A0D30; margin:0 auto; display:flex; flex-direction:column; justify-content:center; min-height:100vh; overflow: hidden;">
     <center>
-      <p style="color:white; font-size:30px; font-family: Tahoma, sans-serif;">Portal SGE-IFPR<br><br>     
+      <p style="color:white; font-size:30px; font-family: Tahoma, sans-serif;">PORTAL SGE-IFPR<br><br>     
         <img src="https://bartzdev.github.io/sgeifpr_homepage/icons/loading.gif" alt="this slowpoke moves"  width="80" height="80"/>      
       </p>
     </center>
